@@ -1,0 +1,30 @@
+
+--leading_zeroes 0
+--trailing_zeroes 0
+--x_integer_digits 2
+--x_decimal_digits 4
+--y_integer_digits 2
+--y_decimal_digits 4
+
+--layer drill
+   --drillfile adk-aDAPTER7thcopy/drill.DRD
+      --offset -0.0135 10.638
+   --drillfile adk-aDAPTER5thcopy/drill.DRD
+      --offset -0.0135 9.396
+   --drillfile adk-aDAPTERanothercopy/drill.DRD
+      --offset 2.8215 9.423
+   --drillfile adk-aDAPTERcopycopy/drill.DRD
+      --offset -0.027 5.535
+   --drillfile adk-aDAPTER4thcopy/drill.DRD
+      --offset -0.0135 8.1135
+   --drillfile adk-aDAPTER3rdcopy/drill.DRD
+      --offset 2.835 10.665
+   --drillfile adk-aDAPTERcopy/drill.DRD
+      --offset 0.0 6.8175
+   --drillfile adk-aDAPTER6thcopy/drill.DRD
+      --offset 2.8215 8.1135
+   --drillfile adk-aDAPTERcopyanothercopy/drill.DRD
+      --offset 2.808 5.5485
+   --drillfile adk-aDAPTER/drill.DRD
+      --offset 2.8215 6.804
+   --outfile drillStiched.DRL

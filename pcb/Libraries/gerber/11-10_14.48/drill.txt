@@ -1,0 +1,40 @@
+
+--leading_zeroes 0
+--trailing_zeroes 0
+--x_integer_digits 2
+--x_decimal_digits 4
+--y_integer_digits 2
+--y_decimal_digits 4
+
+--layer drill
+   --drillfile usb1/drill.DRL
+      --offset 5.2785 4.5495
+   --drillfile adapt1/drill.DRL
+      --offset 4.7115 2.9565
+   --drillfile prgm/drill.DRL
+      --offset 4.185 5.3595
+   --drillfile adapt/drill.DRL
+      --offset 4.428 1.8765
+   --drillfile usb2/drill.DRL
+      --offset 4.2525 2.1465
+   --drillfile adapt3/drill.DRL
+      --offset 4.104 3.699
+   --drillfile dyio/drill.DRL
+      --offset 2.079 5.3595
+   --drillfile usb/drill.DRL
+      --offset 4.671 0.6075
+   --drillfile usb3/drill.DRL
+      --offset 4.536 1.458
+   --drillfile dyio2/drill.DRL
+      --offset 0.0 5.3595
+   --drillfile dyio3/drill.DRL
+      --offset 2.0655 2.781
+   --drillfile dycom1/drill.DRL
+      --offset 0.0135 2.6055
+   --drillfile adapt2/drill.DRL
+      --offset 5.1975 3.6855
+   --drillfile dyio1/drill.DRL
+      --offset 2.0655 0.189
+   --drillfile dycom/drill.DRL
+      --offset 0.0135 0.0135
+   --outfile drillStiched.DRL

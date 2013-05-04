@@ -1,0 +1,34 @@
+"Screaming Circuits SMD component position file.",,,,
+,,,,
+"Centroid Data for pc board: ""DyIO_Rev12_vb.brd"" as of: 5/1/12 9:35 PM",,,,
+"Measurements are in inches. Comma delimited",,,,
+"Only surface mount components included",,,,
+,,,,
+"RefDes","Layer","LocationX","LocationY","Rotation"
+"3.3V","Top",1.691,1.429,0
+"5V","Bottom",1.824,1.458,90
+"AVR_RESET","Top",0.661,1.124,0
+"BATS","Bottom",1.833,1.605,0
+"BTCSB","Bottom",0.456,1.65,0
+"BTMISO","Bottom",0.561,1.647,0
+"BTMOSI","Bottom",0.507,1.608,0
+"BT_CMD","Bottom",0.618,2.16,0
+"BT_LNK","Bottom",0.711,2.16,0
+"BT_RST","Bottom",0.618,2.055,0
+"BT_RX","Bottom",0.459,2.16,0
+"BT_TX","Bottom",0.528,2.16,0
+"D+","Bottom",1.515,1.993,90
+"D-","Bottom",1.652,2.008,0
+"FUSES","Bottom",0.228,1.485,0
+"GND","Top",1.697,1.544,0
+"MCLR","Top",0.813,0.915,0
+"PGC","Top",1.283,1.079,90
+"PGD","Top",1.356,1.079,90
+"R1S","Bottom",1.246,1.494,0
+"R2S","Bottom",0.189,1.398,0
+"SCK","Top",1.482,1.291,0
+"SDI","Top",1.476,0.9,0
+"SDO","Top",1.476,0.972,0
+"SPICLK","Bottom",0.621,1.611,0
+"USBID","Bottom",1.326,1.692,0
+"pad",,1.35,,

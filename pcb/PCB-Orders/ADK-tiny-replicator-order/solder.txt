@@ -1,0 +1,84 @@
+
+--leading_zeroes 0
+--trailing_zeroes 0
+--x_integer_digits 2
+--x_decimal_digits 4
+--y_integer_digits 2
+--y_decimal_digits 4
+
+--layer bottom
+   --gerberfile  adknbcopy/bottom_soldermask.GBS
+      --offset 5.697 3.8205
+   --gerberfile  magencodercopy/bottom_soldermask.GBS
+      --offset 3.7665 5.9265
+   --gerberfile  adknbcopyanothercopy/bottom_soldermask.GBS
+      --offset 3.7395 -0.0135
+   --gerberfile  adknb/bottom_soldermask.GBS
+      --offset 1.8495 -0.0135
+   --gerberfile  adknb4thcopy3rdcopy/bottom_soldermask.GBS
+      --offset -0.0675 0.0
+   --gerberfile  adknb4thcopycopy/bottom_soldermask.GBS
+      --offset -0.0135 3.78
+   --gerberfile  adknbanothercopy/bottom_soldermask.GBS
+      --offset 5.67 1.9305
+   --gerberfile  magencodercopy3rdcopy/bottom_soldermask.GBS
+      --offset 2.5245 5.913
+   --gerberfile  adknbanothercopycopy/bottom_soldermask.GBS
+      --offset 3.8205 3.7665
+   --gerberfile  adknbcopy3rdcopy/bottom_soldermask.GBS
+      --offset 5.67 -0.0135
+   --gerberfile  magencoderanothercopy/bottom_soldermask.GBS
+      --offset 5.022 5.913
+   --gerberfile  adknbcopycopy/bottom_soldermask.GBS
+      --offset -0.0135 1.9035
+   --gerberfile  adknbanothercopyanothercopy/bottom_soldermask.GBS
+      --offset 1.9035 1.8765
+   --gerberfile  magencoder/bottom_soldermask.GBS
+      --offset 6.345 5.94
+   --gerberfile  magencodercopycopy/bottom_soldermask.GBS
+      --offset 1.269 5.913
+   --gerberfile  adknb4thcopyanothercopy/bottom_soldermask.GBS
+      --offset 3.807 1.9035
+   --gerberfile  magencodercopyanothercopy/bottom_soldermask.GBS
+      --offset 0.0135 5.913
+   --gerberfile  adknbanothercopy3rdcopy/bottom_soldermask.GBS
+      --offset 1.9035 3.78
+   --outfile solderStiched.GBS
+--layer top
+   --gerberfile  adknbcopy/top_soldermask.GTS
+      --offset 5.697 3.8205
+   --gerberfile  magencodercopy/top_soldermask.GTS
+      --offset 3.7665 5.9265
+   --gerberfile  adknbcopyanothercopy/top_soldermask.GTS
+      --offset 3.7395 -0.0135
+   --gerberfile  adknb/top_soldermask.GTS
+      --offset 1.8495 -0.0135
+   --gerberfile  adknb4thcopy3rdcopy/top_soldermask.GTS
+      --offset -0.0675 0.0
+   --gerberfile  adknb4thcopycopy/top_soldermask.GTS
+      --offset -0.0135 3.78
+   --gerberfile  adknbanothercopy/top_soldermask.GTS
+      --offset 5.67 1.9305
+   --gerberfile  magencodercopy3rdcopy/top_soldermask.GTS
+      --offset 2.5245 5.913
+   --gerberfile  adknbanothercopycopy/top_soldermask.GTS
+      --offset 3.8205 3.7665
+   --gerberfile  adknbcopy3rdcopy/top_soldermask.GTS
+      --offset 5.67 -0.0135
+   --gerberfile  magencoderanothercopy/top_soldermask.GTS
+      --offset 5.022 5.913
+   --gerberfile  adknbcopycopy/top_soldermask.GTS
+      --offset -0.0135 1.9035
+   --gerberfile  adknbanothercopyanothercopy/top_soldermask.GTS
+      --offset 1.9035 1.8765
+   --gerberfile  magencoder/top_soldermask.GTS
+      --offset 6.345 5.94
+   --gerberfile  magencodercopycopy/top_soldermask.GTS
+      --offset 1.269 5.913
+   --gerberfile  adknb4thcopyanothercopy/top_soldermask.GTS
+      --offset 3.807 1.9035
+   --gerberfile  magencodercopyanothercopy/top_soldermask.GTS
+      --offset 0.0135 5.913
+   --gerberfile  adknbanothercopy3rdcopy/top_soldermask.GTS
+      --offset 1.9035 3.78
+   --outfile solderStiched.GTS

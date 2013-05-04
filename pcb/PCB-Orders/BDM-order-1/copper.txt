@@ -1,0 +1,60 @@
+
+--leading_zeroes 0
+--trailing_zeroes 0
+--x_integer_digits 2
+--x_decimal_digits 4
+--y_integer_digits 2
+--y_decimal_digits 4
+
+--layer bottom
+   --gerberfile  BDM3rdcopy/bottom_copper.GBL
+      --offset 0.0135 9.1395
+   --gerberfile  FFC-Adapter/bottom_copper.GBL
+      --offset 0.0 11.88
+   --gerberfile  FFC-Adapteranothercopy/bottom_copper.GBL
+      --offset 0.9315 11.88
+   --gerberfile  FFC-Adapter4thcopy/bottom_copper.GBL
+      --offset 3.24 11.88
+   --gerberfile  FFC-Adapter7thcopy/bottom_copper.GBL
+      --offset 2.808 11.88
+   --gerberfile  FFC-Adapter6thcopy/bottom_copper.GBL
+      --offset 0.459 11.88
+   --gerberfile  BDMcopy/bottom_copper.GBL
+      --offset 0.0135 6.615
+   --gerberfile  BDM/bottom_copper.GBL
+      --offset 0.0135 4.05
+   --gerberfile  FFC-Adapter3rdcopy/bottom_copper.GBL
+      --offset 2.349 11.8935
+   --gerberfile  FFC-Adapter5thcopy/bottom_copper.GBL
+      --offset 1.8765 11.8935
+   --gerberfile  BDManothercopy/bottom_copper.GBL
+      --offset 0.027 1.4985
+   --gerberfile  FFC-Adaptercopy/bottom_copper.GBL
+      --offset 1.404 11.8935
+   --outfile copperStiched.GBL
+--layer top
+   --gerberfile  BDM3rdcopy/top_copper.GTL
+      --offset 0.0135 9.1395
+   --gerberfile  FFC-Adapter/top_copper.GTL
+      --offset 0.0 11.88
+   --gerberfile  FFC-Adapteranothercopy/top_copper.GTL
+      --offset 0.9315 11.88
+   --gerberfile  FFC-Adapter4thcopy/top_copper.GTL
+      --offset 3.24 11.88
+   --gerberfile  FFC-Adapter7thcopy/top_copper.GTL
+      --offset 2.808 11.88
+   --gerberfile  FFC-Adapter6thcopy/top_copper.GTL
+      --offset 0.459 11.88
+   --gerberfile  BDMcopy/top_copper.GTL
+      --offset 0.0135 6.615
+   --gerberfile  BDM/top_copper.GTL
+      --offset 0.0135 4.05
+   --gerberfile  FFC-Adapter3rdcopy/top_copper.GTL
+      --offset 2.349 11.8935
+   --gerberfile  FFC-Adapter5thcopy/top_copper.GTL
+      --offset 1.8765 11.8935
+   --gerberfile  BDManothercopy/top_copper.GTL
+      --offset 0.027 1.4985
+   --gerberfile  FFC-Adaptercopy/top_copper.GTL
+      --offset 1.404 11.8935
+   --outfile copperStiched.GTL

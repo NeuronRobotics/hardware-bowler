@@ -1,0 +1,46 @@
+
+--leading_zeroes 0
+--trailing_zeroes 0
+--x_integer_digits 2
+--x_decimal_digits 4
+--y_integer_digits 2
+--y_decimal_digits 4
+
+--layer drill
+   --drillfile adknbcopy/drill.DRD
+      --offset 5.697 3.8205
+   --drillfile magencodercopy/drill.DRD
+      --offset 3.7665 5.9265
+   --drillfile adknbcopyanothercopy/drill.DRD
+      --offset 3.7395 -0.0135
+   --drillfile adknb/drill.DRD
+      --offset 1.8495 -0.0135
+   --drillfile adknb4thcopy3rdcopy/drill.DRD
+      --offset -0.0675 0.0
+   --drillfile adknb4thcopycopy/drill.DRD
+      --offset -0.0135 3.78
+   --drillfile adknbanothercopy/drill.DRD
+      --offset 5.67 1.9305
+   --drillfile magencodercopy3rdcopy/drill.DRD
+      --offset 2.5245 5.913
+   --drillfile adknbanothercopycopy/drill.DRD
+      --offset 3.8205 3.7665
+   --drillfile adknbcopy3rdcopy/drill.DRD
+      --offset 5.67 -0.0135
+   --drillfile magencoderanothercopy/drill.DRD
+      --offset 5.022 5.913
+   --drillfile adknbcopycopy/drill.DRD
+      --offset -0.0135 1.9035
+   --drillfile adknbanothercopyanothercopy/drill.DRD
+      --offset 1.9035 1.8765
+   --drillfile magencoder/drill.DRD
+      --offset 6.345 5.94
+   --drillfile magencodercopycopy/drill.DRD
+      --offset 1.269 5.913
+   --drillfile adknb4thcopyanothercopy/drill.DRD
+      --offset 3.807 1.9035
+   --drillfile magencodercopyanothercopy/drill.DRD
+      --offset 0.0135 5.913
+   --drillfile adknbanothercopy3rdcopy/drill.DRD
+      --offset 1.9035 3.78
+   --outfile drillStiched.DRL

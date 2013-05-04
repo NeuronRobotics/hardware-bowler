@@ -1,0 +1,44 @@
+
+--leading_zeroes 0
+--trailing_zeroes 0
+--x_integer_digits 2
+--x_decimal_digits 4
+--y_integer_digits 2
+--y_decimal_digits 4
+
+--layer bottom
+   --gerberfile  bluetooth6/bottom_copper.GBL
+      --offset 3.2805 5.2245
+   --gerberfile  HCD2/bottom_copper.GBL
+      --offset 1.5795 5.0355
+   --gerberfile  BDM2/bottom_copper.GBL
+      --offset -0.027 6.777
+   --gerberfile  bluetooth3/bottom_copper.GBL
+      --offset 2.4975 3.4155
+   --gerberfile  HCD1/bottom_copper.GBL
+      --offset -0.027 5.049
+   --gerberfile  bluetooth5/bottom_copper.GBL
+      --offset 1.242 3.429
+   --gerberfile  BDM1/bottom_copper.GBL
+      --offset -0.0135 9.4635
+   --gerberfile  bluetooth4/bottom_copper.GBL
+      --offset -0.0135 3.429
+   --outfile copperStiched.GBL
+--layer top
+   --gerberfile  bluetooth6/top_copper.GTL
+      --offset 3.2805 5.2245
+   --gerberfile  HCD2/top_copper.GTL
+      --offset 1.5795 5.0355
+   --gerberfile  BDM2/top_copper.GTL
+      --offset -0.027 6.777
+   --gerberfile  bluetooth3/top_copper.GTL
+      --offset 2.4975 3.4155
+   --gerberfile  HCD1/top_copper.GTL
+      --offset -0.027 5.049
+   --gerberfile  bluetooth5/top_copper.GTL
+      --offset 1.242 3.429
+   --gerberfile  BDM1/top_copper.GTL
+      --offset -0.0135 9.4635
+   --gerberfile  bluetooth4/top_copper.GTL
+      --offset -0.0135 3.429
+   --outfile copperStiched.GTL

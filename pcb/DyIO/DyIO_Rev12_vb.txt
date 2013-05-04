@@ -1,0 +1,37 @@
+Qty Value            Device            Parts                                                                                                                                                 
+1                    BTM400_6B         U$1                                                                                                                                                   
+2                    JP2E              JP1, JP2                                                                                                                                              
+1   .1uF             C-USC0402         C9                                                                                                                                                    
+10  .1uF             C-USC0603         C1, C2, C3, C4, C11, C12, C14, C15, C16, C17                                                                                                          
+2   1X12             1X12              U15, U16                                                                                                                                              
+1   1uF              CAP0805           C6                                                                                                                                                    
+2   2CLED            2CLED             U7, U13                                                                                                                                               
+1   2P               2P                U$19                                                                                                                                                  
+2   2X12             2X12              U1, U14                                                                                                                                               
+2   4.7uF            CPOL-USR/2012-12R C7, C8                                                                                                                                                
+2   4PACK            4PACK             R15, R16                                                                                                                                              
+1   10k              R-US_R0402        R4                                                                                                                                                    
+7   10k              R-US_R0603        R1, R3, R5, R6, R8, R9, R10                                                                                                                           
+1   10uF             CAP1210           C18                                                                                                                                                   
+1   10uF             CPOL-USR/2012-12R C10                                                                                                                                                   
+1   10uH/1.8A        INDUCTORSRU5028   L1                                                                                                                                                    
+2   20pf             C-USC0603         C5, C13                                                                                                                                               
+1   22uF             CAP1210           C19                                                                                                                                                   
+1   0154             0154              F1                                                                                                                                                    
+4   330              R-US_R0603        R11, R12, R13, R14                                                                                                                                    
+2   741X163          741X163           R2, R7                                                                                                                                                
+1   1812L110/33MR    R-US_R2012        F2                                                                                                                                                    
+1   1734035-1_USB    1734035-1_USB     U25                                                                                                                                                   
+1   ATMEGA644QFP     ATMEGA644QFP      U$2                                                                                                                                                   
+1   BSS84            BSS84             Q1                                                                                                                                                    
+1   CGRM4007-G       CGRM4007-G        D1                                                                                                                                                    
+2   CMR3XXT          CMR3XXT           X2, X4                                                                                                                                                
+1   LDS3985XX33      LDS3985XX33       U18                                                                                                                                                   
+1   PIC32-64TQFP64-2 PIC32-64TQFP64-2  U3                                                                                                                                                    
+1   PTC              R-US_R2012        F3                                                                                                                                                    
+1   PTR1B1,27        PTR1B1,27         GND                                                                                                                                                   
+24  PTR1TP14R        PTR1TP14R         3.3V, 5V, AVR_RESET, BATS, BTCSB, BTMISO, BTMOSI, BT_CMD, BT_LNK, BT_RST, BT_RX, BT_TX, D+, D-, FUSES, MCLR, PGC, PGD, R1S, R2S, SCK, SDI, SDO, SPICLK
+1   SPST             SPST              SW3                                                                                                                                                   
+1   TPS62112         TPS6211           U2                                                                                                                                                    
+1   TRI-LED-SMD      TRI-LED-SMD       U8                                                                                                                                                    
+1   UCLAMP3304A      UCLAMP3304A       U$20                                                                                                                                                  

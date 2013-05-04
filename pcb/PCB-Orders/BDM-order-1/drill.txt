@@ -1,0 +1,34 @@
+
+--leading_zeroes 0
+--trailing_zeroes 0
+--x_integer_digits 2
+--x_decimal_digits 4
+--y_integer_digits 2
+--y_decimal_digits 4
+
+--layer drill
+   --drillfile BDM3rdcopy/drill.DRD
+      --offset 0.0135 9.1395
+   --drillfile FFC-Adapter/drill.DRD
+      --offset 0.0 11.88
+   --drillfile FFC-Adapteranothercopy/drill.DRD
+      --offset 0.9315 11.88
+   --drillfile FFC-Adapter4thcopy/drill.DRD
+      --offset 3.24 11.88
+   --drillfile FFC-Adapter7thcopy/drill.DRD
+      --offset 2.808 11.88
+   --drillfile FFC-Adapter6thcopy/drill.DRD
+      --offset 0.459 11.88
+   --drillfile BDMcopy/drill.DRD
+      --offset 0.0135 6.615
+   --drillfile BDM/drill.DRD
+      --offset 0.0135 4.05
+   --drillfile FFC-Adapter3rdcopy/drill.DRD
+      --offset 2.349 11.8935
+   --drillfile FFC-Adapter5thcopy/drill.DRD
+      --offset 1.8765 11.8935
+   --drillfile BDManothercopy/drill.DRD
+      --offset 0.027 1.4985
+   --drillfile FFC-Adaptercopy/drill.DRD
+      --offset 1.404 11.8935
+   --outfile drillStiched.DRL

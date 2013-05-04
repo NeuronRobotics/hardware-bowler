@@ -1,0 +1,26 @@
+
+--leading_zeroes 0
+--trailing_zeroes 0
+--x_integer_digits 2
+--x_decimal_digits 4
+--y_integer_digits 2
+--y_decimal_digits 4
+
+--layer drill
+   --drillfile bluetooth6/drill.DRD
+      --offset 3.2805 5.2245
+   --drillfile HCD2/drill.DRD
+      --offset 1.5795 5.0355
+   --drillfile BDM2/drill.DRD
+      --offset -0.027 6.777
+   --drillfile bluetooth3/drill.DRD
+      --offset 2.4975 3.4155
+   --drillfile HCD1/drill.DRD
+      --offset -0.027 5.049
+   --drillfile bluetooth5/drill.DRD
+      --offset 1.242 3.429
+   --drillfile BDM1/drill.DRD
+      --offset -0.0135 9.4635
+   --drillfile bluetooth4/drill.DRD
+      --offset -0.0135 3.429
+   --outfile drillStiched.DRL

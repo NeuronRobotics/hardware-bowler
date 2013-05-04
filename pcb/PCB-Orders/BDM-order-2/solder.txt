@@ -1,0 +1,44 @@
+
+--leading_zeroes 0
+--trailing_zeroes 0
+--x_integer_digits 2
+--x_decimal_digits 4
+--y_integer_digits 2
+--y_decimal_digits 4
+
+--layer bottom
+   --gerberfile  bluetooth6/bottom_soldermask.GBS
+      --offset 3.2805 5.2245
+   --gerberfile  HCD2/bottom_soldermask.GBS
+      --offset 1.5795 5.0355
+   --gerberfile  BDM2/bottom_soldermask.GBS
+      --offset -0.027 6.777
+   --gerberfile  bluetooth3/bottom_soldermask.GBS
+      --offset 2.4975 3.4155
+   --gerberfile  HCD1/bottom_soldermask.GBS
+      --offset -0.027 5.049
+   --gerberfile  bluetooth5/bottom_soldermask.GBS
+      --offset 1.242 3.429
+   --gerberfile  BDM1/bottom_soldermask.GBS
+      --offset -0.0135 9.4635
+   --gerberfile  bluetooth4/bottom_soldermask.GBS
+      --offset -0.0135 3.429
+   --outfile solderStiched.GBS
+--layer top
+   --gerberfile  bluetooth6/top_soldermask.GTS
+      --offset 3.2805 5.2245
+   --gerberfile  HCD2/top_soldermask.GTS
+      --offset 1.5795 5.0355
+   --gerberfile  BDM2/top_soldermask.GTS
+      --offset -0.027 6.777
+   --gerberfile  bluetooth3/top_soldermask.GTS
+      --offset 2.4975 3.4155
+   --gerberfile  HCD1/top_soldermask.GTS
+      --offset -0.027 5.049
+   --gerberfile  bluetooth5/top_soldermask.GTS
+      --offset 1.242 3.429
+   --gerberfile  BDM1/top_soldermask.GTS
+      --offset -0.0135 9.4635
+   --gerberfile  bluetooth4/top_soldermask.GTS
+      --offset -0.0135 3.429
+   --outfile solderStiched.GTS

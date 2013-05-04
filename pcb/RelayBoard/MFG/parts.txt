@@ -1,0 +1,14 @@
+Partlist
+
+Exported from rev2.sch at 3/16/11 7:36 PM
+
+EAGLE Version 5.11.0 Copyright (c) 1988-2010 CadSoft
+
+Part     Value          Device     Package   Library         Sheet
+
+10K                     R-US_R0805 R0805     resistor        1
+D1       CDBM120        D-SMB      SMB       semicon-smd-ipc 1
+SV1                     MA03-1     MA03-1    con-lstb        1
+U$3      A98076-ND      A98076-ND  A98076-ND A98076-ND       1
+U1       JVN1A          JVN1A      JVN1A     JVN1A           1
+U2       BSS138         BSS138     SOT23     WASP            1

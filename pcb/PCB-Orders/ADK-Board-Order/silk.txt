@@ -1,0 +1,30 @@
+
+--leading_zeroes 0
+--trailing_zeroes 0
+--x_integer_digits 2
+--x_decimal_digits 4
+--y_integer_digits 2
+--y_decimal_digits 4
+
+--layer top
+   --gerberfile  adk-aDAPTER7thcopy/top_silk.GTO
+      --offset -0.0135 10.638
+   --gerberfile  adk-aDAPTER5thcopy/top_silk.GTO
+      --offset -0.0135 9.396
+   --gerberfile  adk-aDAPTERanothercopy/top_silk.GTO
+      --offset 2.8215 9.423
+   --gerberfile  adk-aDAPTERcopycopy/top_silk.GTO
+      --offset -0.027 5.535
+   --gerberfile  adk-aDAPTER4thcopy/top_silk.GTO
+      --offset -0.0135 8.1135
+   --gerberfile  adk-aDAPTER3rdcopy/top_silk.GTO
+      --offset 2.835 10.665
+   --gerberfile  adk-aDAPTERcopy/top_silk.GTO
+      --offset 0.0 6.8175
+   --gerberfile  adk-aDAPTER6thcopy/top_silk.GTO
+      --offset 2.8215 8.1135
+   --gerberfile  adk-aDAPTERcopyanothercopy/top_silk.GTO
+      --offset 2.808 5.5485
+   --gerberfile  adk-aDAPTER/top_silk.GTO
+      --offset 2.8215 6.804
+   --outfile silkStiched.GTO

@@ -1,0 +1,26 @@
+
+--leading_zeroes 0
+--trailing_zeroes 0
+--x_integer_digits 2
+--x_decimal_digits 4
+--y_integer_digits 2
+--y_decimal_digits 4
+
+--layer top
+   --gerberfile  bluetooth6/top_silk.GTO
+      --offset 3.2805 5.2245
+   --gerberfile  HCD2/top_silk.GTO
+      --offset 1.5795 5.0355
+   --gerberfile  BDM2/top_silk.GTO
+      --offset -0.027 6.777
+   --gerberfile  bluetooth3/top_silk.GTO
+      --offset 2.4975 3.4155
+   --gerberfile  HCD1/top_silk.GTO
+      --offset -0.027 5.049
+   --gerberfile  bluetooth5/top_silk.GTO
+      --offset 1.242 3.429
+   --gerberfile  BDM1/top_silk.GTO
+      --offset -0.0135 9.4635
+   --gerberfile  bluetooth4/top_silk.GTO
+      --offset -0.0135 3.429
+   --outfile silkStiched.GTO
